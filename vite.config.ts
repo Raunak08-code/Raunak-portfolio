@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    allowedHost : "raunak-portfolio-g0jq.onrender.com",
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
